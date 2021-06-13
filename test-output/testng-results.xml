@@ -1,23 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
     <line>
       <![CDATA[Url Launched]]>
     </line>
+    <line>
+      <![CDATA[Actual Email Address >> josiah+mobiletest@himaxwell.com
+]]>
+    </line>
+    <line>
+      <![CDATA[Actual Email Address in apply now method : >> josiah+mobiletest@himaxwell.com
+]]>
+    </line>
+    <line>
+      <![CDATA[Expected Email Address >> josiah+mobiletest@himaxwell.com
+]]>
+    </line>
+    <line>
+      <![CDATA[Email verified succesfully]]>
+    </line>
+    <line>
+      <![CDATA[Execution completed]]>
+    </line>
   </reporter-output>
-  <suite started-at="2021-06-13T12:07:24 PDT" name="Default suite" finished-at="2021-06-13T12:07:34 PDT" duration-ms="9610">
+  <suite started-at="2021-06-13T12:38:53 PDT" name="Default suite" finished-at="2021-06-13T12:39:12 PDT" duration-ms="19192">
     <groups>
     </groups>
-    <test started-at="2021-06-13T12:07:24 PDT" name="Default test" finished-at="2021-06-13T12:07:34 PDT" duration-ms="9610">
-      <class name="NgbEmailVerification.NgbEmailVerificationTestcases">
-        <test-method is-config="true" signature="testSetUp()[pri:0, instance:NgbEmailVerification.NgbEmailVerificationTestcases@4f67eb2a]" started-at="2021-06-13T12:07:24 PDT" name="testSetUp" finished-at="2021-06-13T12:07:34 PDT" duration-ms="9575" status="PASS">
+    <test started-at="2021-06-13T12:38:53 PDT" name="Default test" finished-at="2021-06-13T12:39:12 PDT" duration-ms="19192">
+      <class name="NgbEmailVerificationNew.NgbEmailVerificationTestcases">
+        <test-method is-config="true" signature="testSetUp()[pri:0, instance:NgbEmailVerificationNew.NgbEmailVerificationTestcases@6a370f4]" started-at="2021-06-13T12:38:53 PDT" name="testSetUp" finished-at="2021-06-13T12:39:00 PDT" duration-ms="7371" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Url Launched]]>
             </line>
           </reporter-output>
         </test-method> <!-- testSetUp -->
-      </class> <!-- NgbEmailVerification.NgbEmailVerificationTestcases -->
+        <test-method signature="getLenderEmail()[pri:1, instance:NgbEmailVerificationNew.NgbEmailVerificationTestcases@6a370f4]" started-at="2021-06-13T12:39:00 PDT" name="getLenderEmail" finished-at="2021-06-13T12:39:05 PDT" duration-ms="5082" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual Email Address >> josiah+mobiletest@himaxwell.com
+]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- getLenderEmail -->
+        <test-method signature="clickOnApplyNowAndVerifyLenderEmail()[pri:2, instance:NgbEmailVerificationNew.NgbEmailVerificationTestcases@6a370f4]" started-at="2021-06-13T12:39:05 PDT" name="clickOnApplyNowAndVerifyLenderEmail" finished-at="2021-06-13T12:39:12 PDT" duration-ms="6464" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Actual Email Address in apply now method : >> josiah+mobiletest@himaxwell.com
+]]>
+            </line>
+            <line>
+              <![CDATA[Expected Email Address >> josiah+mobiletest@himaxwell.com
+]]>
+            </line>
+            <line>
+              <![CDATA[Email verified succesfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- clickOnApplyNowAndVerifyLenderEmail -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:NgbEmailVerificationNew.NgbEmailVerificationTestcases@6a370f4]" started-at="2021-06-13T12:39:12 PDT" name="tearDown" finished-at="2021-06-13T12:39:12 PDT" duration-ms="169" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Execution completed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- NgbEmailVerificationNew.NgbEmailVerificationTestcases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
