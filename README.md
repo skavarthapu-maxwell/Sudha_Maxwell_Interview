@@ -3,7 +3,9 @@
 # Git repository
 
 HTTPS Clone link : https://github.com/skavarthapu-maxwell/Sudha_Maxwell_Interview.git
+
 SSH Clone link : git@github.com:skavarthapu-maxwell/Sudha_Maxwell_Interview.git
+
 Github CLI : gh repo clone skavarthapu-maxwell/Sudha_Maxwell_Interview
 
 # How to execute the project :
